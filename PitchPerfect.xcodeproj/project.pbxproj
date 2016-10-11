@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		111EE2DC1DAC02EC0055096E /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EE2DB1DAC02EC0055096E /* PlaySoundsViewController.swift */; };
+		111EE2DE1DAC6A2D0055096E /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EE2DD1DAC6A2D0055096E /* PlaySoundsViewController+Audio.swift */; };
 		118987D81DA847440078246B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118987D71DA847440078246B /* AppDelegate.swift */; };
 		118987DA1DA847440078246B /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118987D91DA847440078246B /* RecordSoundsViewController.swift */; };
 		118987DD1DA847440078246B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 118987DB1DA847440078246B /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		111EE2DB1DAC02EC0055096E /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaySoundsViewController.swift; path = ../PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		111EE2DD1DAC6A2D0055096E /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		118987D41DA847440078246B /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		118987D71DA847440078246B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		118987D91DA847440078246B /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		118987D61DA847440078246B /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				111EE2DD1DAC6A2D0055096E /* PlaySoundsViewController+Audio.swift */,
 				111EE2DB1DAC02EC0055096E /* PlaySoundsViewController.swift */,
 				118987D71DA847440078246B /* AppDelegate.swift */,
 				118987D91DA847440078246B /* RecordSoundsViewController.swift */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				118987DA1DA847440078246B /* RecordSoundsViewController.swift in Sources */,
+				111EE2DE1DAC6A2D0055096E /* PlaySoundsViewController+Audio.swift in Sources */,
 				111EE2DC1DAC02EC0055096E /* PlaySoundsViewController.swift in Sources */,
 				118987D81DA847440078246B /* AppDelegate.swift in Sources */,
 			);
